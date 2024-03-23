@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Meme Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/runescape-uf" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <section class="bh-girl">
+        <ul class="c-rainbow">
+         <li class="c-rainbow__layer c-rainbow__layer--white">Basic Horsegirl</li>
+         <li class="c-rainbow__layer c-rainbow__layer--orange">Basic Horsegirl</li>
+         <li class="c-rainbow__layer c-rainbow__layer--red">Basic Horsegirl</li>
+         <li class="c-rainbow__layer c-rainbow__layer--violet">Basic Horsegirl</li>
+         <li class="c-rainbow__layer c-rainbow__layer--blue">Basic Horsegirl</li>
+         <li class="c-rainbow__layer c-rainbow__layer--green">Basic Horsegirl</li>
+         <li class="c-rainbow__layer c-rainbow__layer--yellow">Basic Horsegirl</li>
+        </ul>
+    </section>
+    <section class="nav">
+        <ul>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Tokenomics</a>
+          </li>
+          <li>
+            <a href="">Bridge to base</a>
+          </li>
+          <li>
+            <a href="">Memes</a>
+          </li>
+        </ul>
+    </section>
+  </header>
+
+    <main>
+
+
+        <section>
+
+            <audio id="backgroundAudio" loop>
+                <source src="Horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <button id="playPauseButton">Play</button>
+            <li name="neigh">Just say neigh to gambling.</li>
+        </section>
+
+
+    </main>
+
+    <footer>
+  
+    </footer>
+
+
+    <script>
+        const audio = document.getElementById('backgroundAudio');
+        const playPauseButton = document.getElementById('playPauseButton');
+
+        playPauseButton.addEventListener('click', function() {
+            if (audio.paused) {
+                audio.play();
+                playPauseButton.textContent = 'Pause';
+            } else {
+                audio.pause();
+                playPauseButton.textContent = 'Play';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Three columns with equal width */
+  height: 100%;
+  width: 100%;
+}
+.body{
+  height: 100%;
+  width: 100%;
+}
+
+.grid-item2 {
+  height: 90vh;
+  background-image: url('horse.gif');
+  background-repeat: repeat;
+  background-size: 4 %;
+  width: 100%;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Three columns with equal width */
+  gap: 0px; /* Gap between grid items */
+  background-color: #0040FF;
+  height: 100%;
+  width: 100%;
+}
+
+.grid-item1 {
+  text-align: center;
+}
+
+
+
+.gridheader1{
+  width: 15vw;
+  height: 100px;
+}
+
+.gridheader1 {
+  background-color: #0040FF;
+  text-align: center;
+
+}
+
+.main{
+    background-color: #0040FF;
+}
+
+
+
+:root {
+  --color-background: #31037D;
+  --axis-x: 2px;
+  --axis-y: 1rem;
+  --delay: 10;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-orange: #D49C3D;
+  --color-red: #D14B3D;
+  --color-violet: #CF52EB;
+  --color-blue: #44A3F7;
+  --color-green: #5ACB3C;
+  --color-yellow: #DEBF40;
+  --color-foreground: var(--color-white);
+  --font-name: Righteous;
+
+}
